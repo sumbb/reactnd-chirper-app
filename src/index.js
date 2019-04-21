@@ -12,7 +12,7 @@ const store = createStore(
     middleware
 )
 
-
+// You can use ConnectedApp or App as this is default import 
 ReactDOM.render(
     <Provider store={store}>
         <ConnectedApp/>
