@@ -33,7 +33,7 @@ export default function tweets(state={}, action) {
                     }
                 }
             }
-            return {
+            return { 
                 ...state,
                 [tweet.id]: tweet,
                 ...replyingTo
